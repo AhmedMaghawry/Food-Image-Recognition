@@ -3,33 +3,32 @@
 
 # Abstract :
 
-#### Food image recogniton is one of the promising
+Food image recogniton is one of the promising
 
-#### applicatons of visual object recogniton in computer vision.
+applicatons of visual object recogniton in computer vision.
 
-#### In this study, a Food 11 dataset consistng of 13296
+In this study, a Food 11 dataset consistng of 13296
 
-#### images of eleven categories.
+images of eleven categories.
 
-#### Here we implemented 3 diferent Algorithms Decision Tree,
+Here we implemented 3 diferent Algorithms Decision Tree,
 
-#### CNN and DNN.
+CNN and DNN.
 
-#### The Decision tree was frst tested as comparison, resultng
+ The Decision tree was frst tested as comparison, resultng
 
-#### in an overall accuracy of 51.75%; while the CNN
+ in an overall accuracy of 51.75%; while the CNN
 
-#### performed much beter with an overall accuracy of 91%;
+ performed much beter with an overall accuracy of 91%;
 
-#### but when implementng DNN with a much more
+ but when implementng DNN with a much more
 
-#### parameters in the network (more than 80 million) we get
+ parameters in the network (more than 80 million) we get
 
-#### an accuracy of 77%. Further improvement is within reach
+ an accuracy of 77%. Further improvement is within reach
+by collectng more images and optmizing the network
 
-#### by collectng more images and optmizing the network
-
-#### architecture and relevant hyper-parameters.
+architecture and relevant hyper-parameters.
 
 
 # Introduction :
@@ -105,7 +104,7 @@ Afer accessing the folder of images we customize this images to be
 suitable for train.
 
 Then we start to visualize sample of images.
-
+![alt text](https://raw.githubusercontent.com/AhmedMaghawry/Food-Image-Recognition/master/Images/2.jpg)
 
 ## 2. Decision Tree :
 
