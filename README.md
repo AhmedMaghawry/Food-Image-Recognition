@@ -104,7 +104,8 @@ Afer accessing the folder of images we customize this images to be
 suitable for train.
 
 Then we start to visualize sample of images.
-![alt text](https://raw.githubusercontent.com/AhmedMaghawry/Food-Image-Recognition/master/Images/2.jpg)
+![alt text](https://raw.githubusercontent.com/AhmedMaghawry/Food-Image-Recognition/master/images/4.png)
+![alt text](https://raw.githubusercontent.com/AhmedMaghawry/Food-Image-Recognition/master/images/5.png)
 
 ## 2. Decision Tree :
 
@@ -131,6 +132,7 @@ In general, is a technology built to simulate the actvity of the human
 brain – specifcally, patern recogniton and the passage of input through
 various layers of simulated neural connectons.
 The architecture of DNN used here is as follow :
+![alt text](https://raw.githubusercontent.com/AhmedMaghawry/Food-Image-Recognition/master/images/DNN%20Model.png)
 
 which the input layer consists of 200 unit with the shape of the image
 (128 x 128) and the next layer consists of 100 unit which generate about
@@ -140,6 +142,7 @@ which the input layer consists of 200 unit with the shape of the image
 
 The architecture of the CNN used in this study is schematcally illustrated
 in this fg.
+![alt text](https://raw.githubusercontent.com/AhmedMaghawry/Food-Image-Recognition/master/images/resModel.png)
 
 The network has four layers of hidden neurons (three convoluton-pooling
 and one fully-connected), apart from a fnal layer of output neurons (the
@@ -172,24 +175,28 @@ confgured to use GPU for training.
 ## 1. Regular Neural Network :
 
 the Training results
+![alt text](https://raw.githubusercontent.com/AhmedMaghawry/Food-Image-Recognition/master/images/NN1.png)
 The Test result
-
+![alt text](https://raw.githubusercontent.com/AhmedMaghawry/Food-Image-Recognition/master/images/NN2.png)
 ## 2. Decision Tree :
 
 the Training results
-
+![alt text](https://raw.githubusercontent.com/AhmedMaghawry/Food-Image-Recognition/master/images/dec%20acc.png)
 ## 3. DNN :
 
 the Training results
-
+![alt text](https://raw.githubusercontent.com/AhmedMaghawry/Food-Image-Recognition/master/images/DNN%20Train.png)
+![alt text](https://raw.githubusercontent.com/AhmedMaghawry/Food-Image-Recognition/master/images/DNN%20ACC.png)
+![alt text](https://raw.githubusercontent.com/AhmedMaghawry/Food-Image-Recognition/master/images/DNNLOS.png)
 ### 4. Convoluton Neural Network :
 
 the Training results
+![alt text](https://raw.githubusercontent.com/AhmedMaghawry/Food-Image-Recognition/master/images/CNNModel.png)
 The Test result
-
+![alt text](https://raw.githubusercontent.com/AhmedMaghawry/Food-Image-Recognition/master/images/CNN%20ACC.png)
 Plots
-
-
+![alt text](https://raw.githubusercontent.com/AhmedMaghawry/Food-Image-Recognition/master/images/acc.png)
+![alt text](https://raw.githubusercontent.com/AhmedMaghawry/Food-Image-Recognition/master/images/loss.png)
 # Conclusions :
 
 ## 1. Dataset :
