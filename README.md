@@ -151,10 +151,6 @@ the Training results
 - The Big deal in data expansion was the dataset is already big so when generate more data that was a big heavy on memory and we coudn’t even train 200 image of the dataset.
 
 # References :
-https://scikit-learn.orgostableoindex.html
-https://mmspg.epf.chofood-image-datasets
-https://arxiv.orgoabso1612.
-```
-Thanks
-```
-
+- https://scikit-learn.orgostableoindex.html
+- https://mmspg.epf.chofood-image-datasets
+- https://arxiv.orgoabso1612.
