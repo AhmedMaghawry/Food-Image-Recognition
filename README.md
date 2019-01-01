@@ -114,30 +114,24 @@ the Training results
 ![alt text](https://raw.githubusercontent.com/AhmedMaghawry/Food-Image-Recognition/master/images/DNN%20Train.png)
 ![alt text](https://raw.githubusercontent.com/AhmedMaghawry/Food-Image-Recognition/master/images/DNN%20ACC.png)
 ![alt text](https://raw.githubusercontent.com/AhmedMaghawry/Food-Image-Recognition/master/images/DNNLOS.png)
-### 4. Convoluton Neural Network :
+## 4. Convoluton Neural Network :
 
-the Training results
+### the Training results
 ![alt text](https://raw.githubusercontent.com/AhmedMaghawry/Food-Image-Recognition/master/images/CNNModel.png)
-The Test result
-![alt text](https://raw.githubusercontent.com/AhmedMaghawry/Food-Image-Recognition/master/images/CNN%20ACC.png)
-Plots
+### The Test result
+![alt text](https://raw.githubusercontent.com/AhmedMaghawry/Food-Image-Recognition/master/images/CNNACC.png)
+### Plots
 ![alt text](https://raw.githubusercontent.com/AhmedMaghawry/Food-Image-Recognition/master/images/acc.png)
 ![alt text](https://raw.githubusercontent.com/AhmedMaghawry/Food-Image-Recognition/master/images/loss.png)
+
 # Conclusions :
 
 ## 1. Dataset :
 
-- the dataset size is 1.1884 GB so it is very difcult to read it every time
-## from the disk so we decided to upload the images on the drive.
+- the dataset size is 1.1884 GB so it is very difcult to read it every time from the disk so we decided to upload the images on the drive.
 
-- Each image size was 512 x 512 which considered a very large image on
-## any device to calculate so we use (htps:oobulkresizephotos.como) to
-resize the images to 128 x 128 to be easy to handle , this operaton takes about a day and a half to do so.
-- because of the huge amount of images (16 thousands) it is taking to
-## long to read from drive to colab framework so we upload the images as
-
-The 3 zip fles (Train, Validaton, Evaluaton) and accessing the images from them without extractng them at all.
-
+- Each image size was 512 x 512 which considered a very large image on any device to calculate so we use (htps:oobulkresizephotos.como) to resize the images to 128 x 128 to be easy to handle , this operaton takes about a day and a half to do so.
+- because of the huge amount of images (16 thousands) it is taking to long to read from drive to colab framework so we upload the images as a 3 zip fles (Train, Validaton, Evaluaton) and accessing the images from them without extractng them at all.
 - the images wasn’t suitable for training so we scale the pixels of images intensites to the range [0 , 1].
 - To Visualize the image we got some help from Anime or Cartoon Team.
 
